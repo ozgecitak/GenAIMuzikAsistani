@@ -201,7 +201,7 @@ streamlit run chatbot.py
 
 Deploy Linki
 
-[Lütfen buraya projenizin dağıtıldığı (Streamlit Cloud vb.) linki yapıştırın.]
+(https://genaimuzikasistani-qfhbstzekfpessrqoyktgy.streamlit.app/)
 
 Çalışma Akışı ve Test Senaryoları
 
