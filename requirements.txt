@@ -1,40 +1,6 @@
-# Temel LangChain ve eklentileri
-langchain>=1.8.0
-langchain-google-genai>=3.0.0
-langchain-text-splitters>=1.0.0
-langchain-community>=0.4.0
-
-# Google AI ve API paketleri
-google-ai-generativelanguage>=0.9.0
-google-generativeai>=0.8.5
-google-api-python-client>=2.185.0
-google-auth>=2.41.1
-
-# Vektör veritabanı
-chromadb>=1.2.1
-Chroma>=0.2.0
-
-# PDF yükleyici
-langchain_community.document_loaders>=0.4.0
-PyPDF2>=3.1.0
-
-# Text splitting
-langchain_text_splitters>=1.0.0
-
-# Streamlit ve yardımcı paketler
-streamlit>=1.50.0
-python-dotenv>=1.1.1
-
-# Diğer temel paketler
-numpy>=1.24.0
-pandas>=2.3.0
-tqdm>=4.67.0
-requests>=2.32.0
-
-# Opsiyonel: Logging ve renkli terminal
-rich>=14.2.0
-coloredlogs>=15.0.1
-
-# Asenkron HTTP istekleri
-aiohttp>=3.8.0
-anyio>=4.11.0
+streamlit
+langchain
+langchain-google-genai
+chromadb
+pypdf
+google-auth
