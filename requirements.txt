@@ -4,3 +4,4 @@ langchain-google-genai
 chromadb
 pypdf
 google-auth
+langchain-community
