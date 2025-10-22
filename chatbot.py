@@ -9,7 +9,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.retrieval import create_retrieval_chain
-from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain.chains import create_stuff_documents_chain
 
 # -------------------------------
 # 1. Service Account ve Ortam Ayarları
@@ -147,6 +147,7 @@ def main():
 # -------------------------------
 if __name__ == "__main__":
     main()
+
 
 
 
