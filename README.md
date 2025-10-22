@@ -76,8 +76,6 @@ Gerekli Kütüphaneleri Kurma:
 pip install -r requirements.txt
 
 
-(Bu dosyayı, AŞAMA 1'de anlattığımız pip freeze > requirements.txt komutuyla oluşturmuş olmanız gerekmektedir.)
-
 Yapılandırma: service-account.json dosyasını ana proje klasörüne yerleştirin.
 
 3. Uygulamayı Başlatma
@@ -106,5 +104,6 @@ Cevap, sohbet penceresinde, kaynak olarak kullanılan sayfa bilgisiyle birlikte 
 Test Edilebilecek Temel Kabiliyet:
 
 Doğru bilgi çıkarımı: "Do majör gamının notaları nedir?" gibi doğrudan PDF'te yer alan bir sorunun doğru yanıtlanması.
+
 
 Hata yönetimi: PDF'te olmayan bir soru sorulduğunda ("Mars'ta hava durumu nasıl?"), botun "Elimdeki müzik teorisi bilgileri bu soruyu tam olarak yanıtlamak için yetersizdir." yanıtını vermesi beklenir.
