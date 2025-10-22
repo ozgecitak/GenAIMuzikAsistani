@@ -5,3 +5,4 @@ chromadb
 pypdf
 google-auth
 langchain-community
+langchain-core
